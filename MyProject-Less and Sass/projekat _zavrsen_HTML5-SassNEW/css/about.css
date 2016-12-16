@@ -1,0 +1,83 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 1000px;
+}
+
+.glavni {
+    height: 100%;
+    width: 100%;
+    background-color: lightyellow;
+}
+
+.prvi {
+    height: 10%;
+}
+
+.logo {
+    position: absolute;
+    top: 19px;
+    left: 110px;
+    font-size: 1.5em;
+    font-family: cursive;
+}
+
+.logo p {
+    position: relative;
+    right: 12px;
+}
+
+.menu ul {
+    overflow: hidden;
+    padding-top: 170px;
+    padding-left: 90px;
+}
+
+.menu li {
+    float: left;
+    margin-left: 100px;
+    padding: 20px;
+    font-size: 1.5em;
+}
+
+li a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    background-color: yellowgreen;
+}
+
+.drugi {
+    position: relative;
+    top: 100px;
+}
+
+.drugi h1 {
+    font-size: 1.2em;
+}
+
+.school,
+.hobby,
+.other {
+    float: left;
+    width: 25%;
+    padding: 30px;
+    margin: 90px 30px;
+}
+
+.school {
+    background-color: antiquewhite;
+}
+
+.hobby {
+    background-color: blanchedalmond;
+}
+
+.other {
+    background-color: floralwhite;
+}
